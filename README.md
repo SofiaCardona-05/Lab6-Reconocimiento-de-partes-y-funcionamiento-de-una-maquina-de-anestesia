@@ -137,8 +137,6 @@ La correcta interpretación de estas variables permite identificar alteraciones 
 
 ## 3.1. Pregunta A: ¿Cuántos y cuáles son los tipos de anestesia que comúnmente se aplican durante una cirugía? Explique cada uno.
 
-Se reconocen cuatro categorías principales de anestesia: general, regional, local y sedación monitorizada.
-
 **1. Anestesia general:**
 
 Produce pérdida reversible de la consciencia y ausencia de respuesta a estímulos dolorosos. Se utiliza en procedimientos quirúrgicos mayores y puede administrarse por vía intravenosa o inhalatoria. Durante su aplicación puede requerirse ventilación mecánica y monitorización continua de las funciones cardiovasculares y respiratorias.
