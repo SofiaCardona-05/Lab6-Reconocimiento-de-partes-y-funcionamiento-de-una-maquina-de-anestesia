@@ -1,1 +1,1 @@
-# Lab6-Reconocimiento-de-partes-y-funcionamiento-de-una-maquina-de-anestesia
+# Lab6 Reconocimiento de partes y funcionamiento de una maquina de anestesia
