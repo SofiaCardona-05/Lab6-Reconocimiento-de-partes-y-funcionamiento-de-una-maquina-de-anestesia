@@ -1,74 +1,34 @@
 # Reconocimiento de partes y funcionamiento de una máquina de anestesia
 
 # 1. INTRODUCCIÓN
+La anestesia es un procedimeinto médico que se realiza tanto en cirugías como entros procedimientos diagnósticos, esto por la supresión temporal de la sensibilidad, el dolor y de consciencia del paciente. Para su administracion se requieren equipos medicos espcializados, los cuales suministran gases medicinales, tambien controlan la concentracion de agentes anestésicos y proporcionan soporte ventilatorio de ser necesario. Para cumplir con sus funciones este equipo integra diferentes subsistemas electricos y mecanicos los cuales trabajan conjuntamente. 
 
-La anestesia es un procedimiento médico que permite realizar intervenciones quirúrgicas y otros procedimientos diagnósticos o terapéuticos mediante la supresión temporal de la sensibilidad, el dolor y, dependiendo de la técnica empleada, el estado de consciencia del paciente. Su administración requiere equipos especializados capaces de suministrar gases medicinales, controlar la concentración de agentes anestésicos y proporcionar soporte ventilatorio cuando sea necesario.
+Sus componentes principales, esta el suministro de gases, los reguladores de presión, los flujómetros, los vaporizadores, el circuito de respiración, el sistema de absorción de dióxido de carbono, el ventilador mecanico y los sistemas de monitorización y alarmas. Para la ingenieria biomedica comprender el funcionamiento de estos equipos es crucial para identificar sus componentes, reconocer fallas, verificar su funcionamiento optimo.
 
-La máquina de anestesia constituye uno de los equipos biomédicos fundamentales dentro del entorno quirúrgico. Su función principal consiste en proporcionar una mezcla controlada de gases y agentes anestésicos al paciente, además de permitir el mantenimiento de una ventilación adecuada durante el procedimiento. Para cumplir estas funciones, integra diferentes subsistemas neumáticos, electrónicos y mecánicos que trabajan conjuntamente.
-
-Entre sus componentes principales se encuentran el sistema de suministro de gases, los reguladores de presión, los flujómetros, los vaporizadores, el circuito de respiración, el sistema de absorción de dióxido de carbono (CO₂), el ventilador mecánico y los sistemas de monitorización y alarmas.
-
-Desde la perspectiva de la ingeniería biomédica, comprender el funcionamiento de estos equipos es fundamental para identificar sus componentes, reconocer posibles fallas, verificar sus condiciones de funcionamiento y garantizar que los procedimientos de mantenimiento preventivo y correctivo se realicen adecuadamente.
-
-En esta práctica se estudia la máquina de anestesia Mindray WATO EX-20, identificando sus principales subsistemas y analizando los principios físicos y fisiológicos que permiten su funcionamiento.
-
----
+En esta práctica se utilizó la máquina de anestesia Mindray WATO EX-20, identificando sus principales subsistemas y analizando los principios físicos y fisiológicos que permiten su funcionamiento.
 
 # 2. MARCO TEÓRICO
 
-## 2.1. Concepto de anestesia
+La anestesia es un estado donde el paciente es inducido farmacológicamente,  este permite realizar procedimientos médicos y quirúrgicos evitando la percepción del dolor. Dependiendo del tipo de anestesia, esta puede producir pérdida de sensibilidad en una región específica del cuerpo o afectar el estado de consciencia. Los agentes anestésicos actúan sobre diferentes estructuras y mecanismos del sistema nervioso central y sistema periférico, modificando asi la transmisión de señales nerviosas relacionadas con la sensibilidad, el dolor, la memoria y el estado de consciencia. La selección del procedimiento anestésico depende de factores como el tipo de cirugía, procedimeinto, las condiciones clínicas del paciente, y los posibles riesgos. [1]
 
-La anestesia es un estado inducido farmacológicamente que permite realizar procedimientos médicos y quirúrgicos evitando o disminuyendo la percepción del dolor. Dependiendo del tipo de anestesia, puede producir pérdida de sensibilidad en una región específica del cuerpo o afectar de manera generalizada el estado de consciencia y la respuesta del sistema nervioso.
 
-Los agentes anestésicos actúan sobre diferentes estructuras y mecanismos del sistema nervioso central y periférico, modificando la transmisión de señales nerviosas relacionadas con la sensibilidad, el dolor, la memoria y el estado de consciencia.
+## 2.1. Tipos de anestesia
 
-La selección del procedimiento anestésico depende de factores como el tipo de cirugía, las condiciones clínicas del paciente, la duración del procedimiento y los riesgos asociados.
+### 2.1.1. Anestesia general
 
-## 2.2. Tipos de anestesia
+Es un estado farmacológicamente inducido donde se genera una pérdida reversible de la consciencia, una ausencia de respuesta a estímulos dolorosos y la disminución o pérdida de determinados reflejos protectores. Es utilizada principalmente en procedimientos quirúrgicos complejos que requieren que el paciente permanezca inconsciente durante toda la intervención. Puede ser administrada mediante via intravenosa o inhalatoria, durante la anestesía genral es necesario vigilar la frecuencia cardiaca, la presion arterial, la saturación de oxigeno, la ventilación y la concentración de dióxido de carbono. Con la maquina de anestesia se controla el suministro de gases, la administración de agentes anestésicos inhalados y proporcionar ventilación mecánica. [2][3]
 
-Existen cuatro categorías principales de anestesia utilizadas en la práctica clínica:
+### 2.1.2. Anestesia regional
 
-### 2.2.1. Anestesia general
+Esta anestesia bloquea temporalmente la transmisión de señales nerviosas en una región determinada del cuerpo, para asi evitar que el paciente perciba dolor en esa zona especifica. No necesariamente produce perdida de conciencia, por lo que el paciente permanece despierto durante el procedimeinto. Se utiliza en procedimientos de las extremidades, cirugías abdominales inferiores y procedimientos obstétricos, entre otros.[1]
 
-Es un estado farmacológicamente inducido caracterizado por la pérdida reversible de la consciencia, la ausencia de respuesta a estímulos dolorosos y la disminución o pérdida de determinados reflejos protectores.
+### 2.1.3. Anestesia local
 
-Se utiliza principalmente en procedimientos quirúrgicos mayores que requieren que el paciente permanezca inconsciente durante toda la intervención.
+Consiste en bloquear la sensibilidad de una zona pequeña y específica del cuerpo mediante la administración de anestésicos locales. Estos medicamentos actúan principalmente bloqueando los canales de sodio dependientes de voltaje de las membranas neuronales, impidiendo la propagación del potencial de acción y asi impidiendo la transmisión de señales dolorosas. Se utiliza principalmente en procedimientos odontológicos, suturas, pequeñas intervenciones dermatológicas.
 
-Puede administrarse mediante:
-- **Vía intravenosa:** utilizando medicamentos anestésicos administrados directamente al torrente sanguíneo.
-- **Vía inhalatoria:** mediante agentes anestésicos volátiles que llegan a los pulmones a través de una mezcla de gases.
+### 2.1.4. Sedación monitorizada
 
-Durante la anestesia general es necesario vigilar continuamente variables fisiológicas como la frecuencia cardíaca, la presión arterial, la saturación de oxígeno, la ventilación y la concentración de dióxido de carbono.
-
-La máquina de anestesia tiene una participación fundamental en este tipo de procedimiento, debido a que permite controlar el suministro de gases, administrar agentes anestésicos inhalados y proporcionar ventilación mecánica.
-
-### 2.2.2. Anestesia regional
-
-Consiste en bloquear temporalmente la transmisión de señales nerviosas en una región determinada del cuerpo, evitando que el paciente perciba dolor en esa zona.
-
-A diferencia de la anestesia general, no necesariamente produce pérdida de consciencia, por lo que el paciente puede permanecer despierto durante el procedimiento.
-
-Entre sus principales técnicas se encuentran:
-
-- **Anestesia epidural:** consiste en administrar anestésicos locales en el espacio epidural, bloqueando la transmisión nerviosa.
-- **Anestesia raquídea o espinal:** consiste en administrar el anestésico en el líquido cefalorraquídeo, dentro del espacio subaracnoideo.
-- **Bloqueos nerviosos periféricos:** permiten interrumpir temporalmente la conducción nerviosa en nervios específicos.
-
-Se utiliza en procedimientos de las extremidades, cirugías abdominales inferiores y procedimientos obstétricos, entre otros.
-
-### 2.2.3. Anestesia local
-
-Consiste en bloquear la sensibilidad de una zona pequeña y específica del cuerpo mediante la administración de anestésicos locales.
-
-Estos medicamentos actúan principalmente bloqueando los canales de sodio dependientes de voltaje de las membranas neuronales, impidiendo la propagación del potencial de acción y, por consiguiente, la transmisión de señales dolorosas.
-
-Se utiliza en procedimientos odontológicos, suturas, pequeñas intervenciones dermatológicas y otros procedimientos menores.
-
-Generalmente, el paciente permanece consciente durante todo el procedimiento.
-
-### 2.2.4. Sedación monitorizada
-
-Es una técnica farmacológica que produce diferentes grados de disminución del estado de alerta, relajación y respuesta a estímulos.
+Esta es una técnica farmacológica que produce diferentes grados de disminución del estado de alerta, relajación y respuesta a estímulos.
 
 Se clasifica habitualmente en:
 
@@ -78,39 +38,11 @@ Se clasifica habitualmente en:
 
 Se utiliza en procedimientos endoscópicos, intervenciones odontológicas y procedimientos diagnósticos que requieren disminuir la ansiedad y las molestias del paciente.
 
-Es importante señalar que la sedación no equivale necesariamente a anestesia general y requiere monitorización de las funciones respiratorias y cardiovasculares.
-
-## 2.3. Máquina de anestesia
-
-Una máquina de anestesia es un equipo biomédico diseñado para administrar de manera controlada gases medicinales y agentes anestésicos, así como proporcionar soporte ventilatorio durante procedimientos quirúrgicos.
-
-Sus principales funciones son:
-
-1. Suministrar oxígeno al paciente.
-2. Controlar la mezcla y el flujo de gases medicinales.
-3. Administrar agentes anestésicos inhalatorios.
-4. Proporcionar ventilación espontánea, manual o mecánica.
-5. Permitir la eliminación del dióxido de carbono durante la respiración.
-6. Monitorizar diferentes parámetros respiratorios y activar alarmas ante condiciones anormales.
-
-La máquina de anestesia puede dividirse funcionalmente en diferentes subsistemas:
-
-- Sistema de suministro de gases.
-- Sistema de control de flujo y presión.
-- Sistema de administración de anestésicos.
-- Sistema de respiración.
-- Sistema de ventilación mecánica.
-- Sistema de monitorización y alarmas.
-- Sistema de evacuación de gases anestésicos residuales.
 
 ## 2.4. Máquina de anestesia Mindray WATO EX-20
 
-La Mindray WATO EX-20 es una estación de anestesia diseñada para procedimientos de anestesia general en pacientes adultos y pediátricos, de acuerdo con las configuraciones y especificaciones del equipo.
-
-Integra sistemas de suministro de gases, vaporización de agentes anestésicos, ventilación y monitorización.
-
-Entre sus características se encuentran:
-
+La Mindray WATO EX-20 es una estación de anestesia diseñada para pacientes adultos y pediatricos para un procedimientos de anestesia general. Integra sistemas de suministro de gases, vaporización de agentes anestésicos, ventilación y monitorización.
+Este quipo cuenta con:
 - Pantalla LCD para visualizar parámetros y formas de onda.
 - Ventilador electrónico de accionamiento neumático.
 - Modos de ventilación manual y mecánica.
@@ -119,43 +51,14 @@ Entre sus características se encuentran:
 - Posibilidad de utilizar hasta dos vaporizadores, según configuración.
 - Sistemas de alarmas para identificar condiciones anormales.
 
-El fabricante describe los modos de ventilación manual, VCV, control por presión y VISO dentro de las características de esta serie.
+El fabricante describe los modos de ventilación manual, VCV, control por presión y VISO dentro de las características de esta serie.[5]
 
 ## 2.5. Sistema de suministro de gases medicinales
-
-El sistema de suministro de gases es el encargado de proporcionar los gases necesarios para la anestesia y la ventilación del paciente.
-
 Los gases utilizados habitualmente son:
-
-### Oxígeno (O₂)
-
-Es indispensable para mantener la oxigenación de los tejidos y permitir el metabolismo celular.
-
-Se administra mediante una mezcla controlada de gases y su concentración inspirada puede monitorizarse mediante un sensor de oxígeno.
-
-### Óxido nitroso (N₂O)
-
-Es un gas con propiedades anestésicas y analgésicas. Se utiliza como complemento de otros agentes anestésicos para contribuir al mantenimiento de la anestesia y disminuir los requerimientos de algunos anestésicos.
-
-Su administración debe controlarse cuidadosamente debido a sus características farmacológicas.
-
-### Aire medicinal
-
-Es una mezcla de gases que contiene aproximadamente un 21 % de oxígeno y un 78 % de nitrógeno, además de pequeñas proporciones de otros componentes.
-
-Se utiliza para complementar el oxígeno y controlar la concentración de este en la mezcla inspirada.
-
-### Agentes anestésicos inhalatorios
-
-Son sustancias volátiles que se administran mediante vaporizadores especializados.
-
-Entre los más utilizados se encuentran:
-
-- Sevoflurano.
-- Isoflurano.
-- Desflurano.
-
-Estos agentes permiten inducir y mantener la anestesia general mediante su administración a través del sistema respiratorio.
+- Oxígeno (O₂)
+- Óxido nitroso (N₂O)
+- Aire medicinal
+- Agentes anestésicos inhalatorios
 
 ## 2.6. Sistemas de presión de la máquina de anestesia
 
@@ -163,97 +66,34 @@ El funcionamiento neumático de una máquina de anestesia se organiza en tres si
 
 ### Sistema de alta presión
 
-Recibe los gases directamente de los cilindros de reserva.
-
-Incluye:
-- Conexiones de los cilindros.
-- Válvulas de conexión.
-- Manómetros de presión.
-- Reguladores de presión.
-
 Su función consiste en recibir el gas almacenado a alta presión y permitir su reducción mediante reguladores.
 
 ### Sistema de presión intermedia
 
-Recibe los gases provenientes de los cilindros después de su regulación y de las redes centrales de suministro hospitalario.
-
-Incluye:
-- Conexiones de suministro hospitalario.
-- Manómetros de presión.
-- Válvulas de control.
-- Elementos de seguridad.
-- Sistemas de regulación.
-
-Permite mantener condiciones de presión adecuadas para el funcionamiento de los diferentes componentes.
+Recibe los gases provenientes de los cilindros después de su regulación y de las redes centrales de suministro hospitalario. Donde permite mantener unas condiciones de presión adecuadas para el funcionamiento de los diferentes componentes.
 
 ### Sistema de baja presión
 
-Se encuentra después de los sistemas de control de flujo y comprende los componentes encargados de preparar y conducir la mezcla de gases hacia el paciente.
-
-Incluye:
-- Flujómetros.
-- Vaporizadores.
-- Conductos de mezcla.
-- Salida común de gases.
-
-Es especialmente importante porque permite controlar la composición de la mezcla que posteriormente llega al circuito respiratorio.
+Se encuentra después de los sistemas de control de flujo y comprende los componentes encargados de preparar y conducir la mezcla de gases hacia el paciente. Su importancia se debe a que permite controlar la composición de la mezcla que llega al circuito respiratorio.
 
 ## 2.7. Vaporizador anestésico
 
-El vaporizador es un dispositivo encargado de convertir un agente anestésico líquido en vapor y añadirlo de manera controlada a la mezcla de gases que será administrada al paciente.
-
-Su funcionamiento se basa en las propiedades de volatilidad y presión de vapor de cada agente anestésico.
-
-La concentración del anestésico se regula mediante un sistema de control específico, permitiendo establecer la cantidad de vapor que se incorpora a la mezcla respiratoria.
-
-Es importante utilizar vaporizadores compatibles con el agente anestésico correspondiente, debido a que cada sustancia presenta propiedades físicas diferentes.
+El vaporizador se encarga de convertir un agente anestésico líquido en vapor y añadirlo de manera controlada a la mezcla de gases que será administrada al paciente.
 
 ## 2.8. Sistema de respiración
 
-El sistema de respiración es el conjunto de componentes que permite conducir los gases desde la máquina de anestesia hasta el paciente y facilitar el retorno de los gases espirados.
-
-Uno de los sistemas más utilizados es el circuito circular, que permite reutilizar parte de los gases espirados después de eliminar el dióxido de carbono.
-
-Sus principales componentes son:
-
-- Rama inspiratoria.
-- Rama espiratoria.
-- Válvulas unidireccionales.
-- Recipiente absorbente de CO₂.
-- Bolsa reservorio.
-- Válvula APL.
-- Conector en Y.
-- Tubos respiratorios.
-- Sensores de presión y flujo.
-
-El circuito permite controlar el intercambio de gases y reducir el consumo de gases medicinales y agentes anestésicos.
+El sistema de respiración es el conjunto de componentes que permite conducir los gases desde la máquina de anestesia hasta el paciente y tambien facilitar el retorno de los gases espirados. Permite controlar el intercambio de gases y reducir el consumo de gases medicinales y agentes anestésicos.
 
 ## 2.9. Absorción de dióxido de carbono (CO₂)
 
-Durante la respiración celular, el organismo produce dióxido de carbono, que es transportado por la sangre hacia los pulmones para ser eliminado durante la espiración.
-
-En los circuitos circulares de anestesia, parte del gas espirado puede retornar al sistema. Por esta razón, es necesario eliminar el CO₂ antes de que el gas vuelva a ser inspirado.
-
-Para cumplir esta función se utiliza un recipiente absorbente que contiene sustancias químicas, generalmente cal sodada.
-
-La cal sodada reacciona con el dióxido de carbono mediante un proceso químico que permite retenerlo y evitar su reinhalación.
-
-La eficacia del absorbente disminuye a medida que se consume su capacidad de reacción, por lo que debe verificarse su estado y reemplazarse de acuerdo con las indicaciones del fabricante y las condiciones de uso.
+Durante la respiración celular, el organismo produce dióxido de carbono, que es transportado por la sangre hacia los pulmones para ser eliminado en la espiración. Es necesario eliminar el CO₂ antes de que el gas vuelva a ser inspirado.
+Para cumplir esta función se utiliza un recipiente absorbente que contiene sustancias químicas, generalmente cal sodada esta reacciona con el dióxido de carbono mediante un proceso químico que permitiendo su retención y evitando su reinhalación.
 
 ## 2.10. Ventilación mecánica
 
-La ventilación mecánica consiste en proporcionar movimiento de gases hacia los pulmones mediante un dispositivo externo cuando se requiere asistencia o sustitución de la ventilación espontánea.
+La ventilación mecánica proporciona movimiento de gases hacia los pulmones con ayuda de un dispositivo externo cuando se requiere asistencia o sustitución de la ventilación espontánea.
 
-En la máquina de anestesia, el ventilador permite controlar diferentes parámetros respiratorios, entre ellos:
-
-- Volumen corriente.
-- Frecuencia respiratoria.
-- Relación inspiración/espiración.
-- Presión inspiratoria.
-- Presión positiva al final de la espiración (PEEP).
-- Tiempo inspiratorio.
-
-Entre los modos de ventilación utilizados en la WATO EX-20 se encuentran:
+Entre los modos de ventilación utilizados en la WATO EX-20 estan:
 
 **Ventilación controlada por volumen (VCV):** el ventilador administra un volumen corriente previamente establecido durante cada ciclo respiratorio.
 
@@ -266,26 +106,15 @@ Entre los modos de ventilación utilizados en la WATO EX-20 se encuentran:
 ## 2.11. Válvula APL
 
 La válvula APL (Adjustable Pressure Limiting) es un componente del sistema respiratorio que permite controlar la presión máxima del circuito durante la ventilación manual.
+Liberar el exceso de gas cuando la presión del circuito alcanza el valor establecido. De esta manera ayuda a evitar un aumento en la presión del sistema respiratorio. Su regulación se realiza de acuerdo con las condiciones clínicas del paciente y las indicaciones del profesional responsable.
 
-Su funcionamiento consiste en liberar el exceso de gas cuando la presión del circuito alcanza el valor establecido.
+## 2.12. Sistema de reserva
 
-De esta manera, ayuda a evitar que la presión del sistema respiratorio aumente excesivamente durante la ventilación manual.
-
-Su regulación debe realizarse de acuerdo con las condiciones clínicas del paciente y las indicaciones del profesional responsable.
-
-## 2.12. Fuelle o sistema de reserva
-
-El fuelle es un componente mecánico que forma parte del sistema de ventilación de la máquina de anestesia.
-
-Permite almacenar temporalmente los gases y facilitar su administración durante los ciclos de ventilación mecánica.
-
-Su movimiento de expansión y compresión permite visualizar el comportamiento del suministro de gas y el proceso respiratorio.
-
-Durante la inspiración, el sistema impulsa el gas hacia el paciente, mientras que durante la espiración el fuelle recupera su volumen mediante el retorno de los gases al circuito.
+El sistema de reserva es un componente mecánico que forma parte del sistema de ventilación de la máquina de anestesia. Este permite almacenar temporalmente los gases y facilitar su administración durante los ciclos de ventilación mecánica.
 
 ## 2.13. Monitorización y sistemas de seguridad
 
-La monitorización permite evaluar continuamente el estado del paciente y el comportamiento del equipo durante la anestesia.
+La monitorización permite evaluar continuamente el estado del paciente y el comportamiento adecuado del equipo durante algun procedimiento.
 
 Entre las variables que pueden monitorizarse se encuentran:
 
@@ -301,10 +130,8 @@ Entre las variables que pueden monitorizarse se encuentran:
 | Frecuencia respiratoria | Número de ciclos respiratorios por minuto. |
 
 Los sistemas de alarma permiten advertir sobre condiciones como presión excesiva, volumen minuto bajo, apnea, desconexión del circuito y fallas en el suministro de gases.
-
 La correcta interpretación de estas variables permite identificar alteraciones en el funcionamiento del equipo y responder oportunamente ante situaciones de riesgo.
 
----
 
 # 3. PARTE A. DESARROLLO DE LAS PREGUNTAS
 
