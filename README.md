@@ -1,11 +1,4 @@
-## Reconocimiento de partes y funcionamiento de una máquina de anestesia
-
-**Asignatura:** Instrumentación Biomédica y Biosensores  
-**Programa:** Ingeniería Biomédica  
-**Universidad:** Universidad Militar Nueva Granada  
-**Equipo evaluado:** Máquina de anestesia Mindray WATO EX-20  
-
----
+# Reconocimiento de partes y funcionamiento de una máquina de anestesia
 
 # 1. INTRODUCCIÓN
 
