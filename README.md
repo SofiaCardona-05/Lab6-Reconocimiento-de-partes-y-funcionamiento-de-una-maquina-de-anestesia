@@ -275,7 +275,7 @@ c. Recipiente absorbente de CO2
 <img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
 
 <p align="center">
-<b>Figura 3.</b> Recipiente absorbente de CO2.}
+<b>Figura 3.</b> Recipiente absorbente de CO2.
 </p>
 Se encuentra en la parte inferior del sistema respiratorio, conectado al circuito circular de ventilación.Contiene un material absorbente, generalmente cal sodada, que elimina el dióxido de carbono (CO₂) del aire espirado por el paciente. Esto permite reutilizar los gases restantes del circuito, evitando la reinhalación de concentraciones perjudiciales de CO₂. [11]  
 
@@ -314,9 +314,8 @@ De acuerdo con el manual de servicio de la Mindray WATO EX-20, la prueba de fuga
    
 Criterios para identificar una fuga:   
 - Para el gas impulsor (Drive Gas), se considera que existe una fuga si la presión disminuye más de 5000 kPa (725 psi).
-- 
 - Para los gases que no son impulsores, se considera que existe una fuga si la presión disminuye más de 690 kPa (100 psi).
-- 
+
 Si se identifica una fuga, se debe instalar una junta nueva en el cilindro y repetir la prueba. Si la fuga continúa, no se debe utilizar el sistema de suministro del cilindro y se debe solicitar la revisión técnica correspondiente. [11]
 
 ### 5. ¿Influye el contar o no con el sensor de O2 al hacer la prueba sobre el sistema de control de flujo? ¿De qué forma?  
@@ -377,7 +376,14 @@ https://doi.org/10.1097/SIH.0b013e31816366d3
 https://www.ncbi.nlm.nih.gov/books/NBK572060/
 
 [10] Occupational Safety and Health Administration (OSHA). *Anesthetic Gases: Guidelines for Workplace Exposures*.  
-https://www.osha.gov/waste-anesthetic-gases/workplace-exposures-guidelines
+
+[11] Mindray. (2012). WATO EX-20/30/35 Anesthesia Machine: Service Manual (Rev. 6.0). Shenzhen Mindray Bio-Medical Electronics Co., Ltd. https://manuals.plus/m/5fff859b068b970cdde442e407db428eaf22c7e9b750706ee02fd0114e99e237.pdf 
+
+[12] Mindray. (s. f.). WATO EX-20 Anesthesia Machine: Operator's Manual. Shenzhen Mindray Bio-Medical Electronics Co., Ltd. https://cleanmedical.com.br/wp-content/uploads/2023/06/Manual-Usuario_Aparelho-Anestesia_Mindray-WATO-EX-20.pdf 
+
+[13] OpenAnesthesia. (s. f.). Carbon Dioxide Absorbers. International Anesthesia Research Society. https://www.openanesthesia.org/keywords/carbon-dioxide-absorbers/ 
+
+[14] Anesthesia Patient Safety Foundation (APSF). (2005). Carbon Dioxide Absorbent Desiccation Safety Conference Convened by APSF. https://www.apsf.org/article/carbon-dioxide-absorbent-desiccation-safety-conference-convened-by-apsf/https://www.osha.gov/waste-anesthetic-gases/workplace-exposures-guidelines
 
 ---
 
