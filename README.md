@@ -261,24 +261,32 @@ a. Vaporizador
 <p align="center">
 <b>Figura 1.</b> Vaporizador.
 </p>
+Se encuentra en la parte superior de la máquina, sobre el sistema de administración de gases frescos, en el soporte destinado a los vaporizadores.Transforma el anestésico líquido volátil en vapor y lo incorpora, en una concentración controlada, a la mezcla de gases frescos que recibe el paciente. Permite administrar agentes anestésicos inhalatorios, como sevoflurano o isoflurano, según el vaporizador instalado. [11]  
+
 b. Válvula APL
 <img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
 
 <p align="center">
 <b>Figura 2.</b> Válvula APL
 </p>
+Se encuentra en el sistema respiratorio, en la zona frontal del circuito de ventilación manual, cerca de la bolsa reservorio. Regula y limita la presión dentro del circuito durante la ventilación manual. Permite liberar el exceso de gases hacia el sistema de evacuación de gases anestésicos (AGSS), evitando que se produzcan presiones excesivas en el circuito respiratorio del paciente. [11]  
+
 c. Recipiente absorbente de CO2
 <img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
 
 <p align="center">
-<b>Figura 3.</b> Recipiente absorbente de CO2.
+<b>Figura 3.</b> Recipiente absorbente de CO2.}
 </p>
+Se encuentra en la parte inferior del sistema respiratorio, conectado al circuito circular de ventilación.Contiene un material absorbente, generalmente cal sodada, que elimina el dióxido de carbono (CO₂) del aire espirado por el paciente. Esto permite reutilizar los gases restantes del circuito, evitando la reinhalación de concentraciones perjudiciales de CO₂. [11]  
+
 d. Fuelle
 <img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
 
 <p align="center">
 <b>Figura 4.</b> Fuelle.
 </p>
+Se encuentra en el compartimento del sistema respiratorio, dentro de una carcasa transparente ubicada en la parte superior del circuito respiratorio.Es un componente fundamental para la ventilación mecánica. Se expande y comprime mediante la acción del gas impulsor, permitiendo movilizar un volumen determinado de gas hacia los pulmones del paciente durante la inspiración. También permite observar visualmente el movimiento respiratorio y detectar posibles alteraciones en la ventilación. [11] 
+
 ### 2. Si el ventilador muestra el mensaje “batería en uso” y el paciente se encuentra conectado a la máquina ¿Qué acción debería ejecutarse?
 Se debe verificar inmediatamente la conexión eléctrica de la máquina a la red de corriente alterna (AC), comprobando que el cable de alimentación esté correctamente conectado y que el tomacorriente tenga suministro eléctrico. Mientras se verifica la alimentación, se debe mantener la vigilancia continua de la ventilación del paciente y comprobar que el ventilador continúe funcionando correctamente.  
 
