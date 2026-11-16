@@ -251,6 +251,23 @@ Por lo tanto, la pausa inspiratoria se configura en el modo de ventilación cont
 
 ---
 
+
+
+## Parte B
+### 1. Identifique y ubique las siguientes partes de la máquina de anestesia WATOEX-20, explicando su función.
+a. Vaporizador
+b. Válvula APL
+c. Recipiente absorbente de CO2
+d. Fuelle
+### 2. Si el ventilador muestra el mensaje “batería en uso” y el paciente se encuentra conectado a la máquina ¿Qué acción debería ejecutarse?
+### 3. ¿Con qué frecuencia debería reemplazarse el recipiente absorbente de CO2?
+### 4. ¿Cuál es el procedimiento para verificar si hay fuga en el cilindro de alta presión?
+### 5. ¿Influye el contar o no con el sensor de O2 al hacer la prueba sobre el sistema de control de flujo? ¿De qué forma?
+### 6. ¿Para qué se requiere el sistema de presión negativa?
+
+
+
+
 # 4. BIBLIOGRAFÍA
 
 [1] National Institute of General Medical Sciences (NIGMS). (2026). *Anesthesia*. National Institutes of Health.  
