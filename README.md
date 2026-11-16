@@ -260,12 +260,65 @@ b. Válvula APL
 c. Recipiente absorbente de CO2
 d. Fuelle
 ### 2. Si el ventilador muestra el mensaje “batería en uso” y el paciente se encuentra conectado a la máquina ¿Qué acción debería ejecutarse?
+Se debe verificar inmediatamente la conexión eléctrica de la máquina a la red de corriente alterna (AC), comprobando que el cable de alimentación esté correctamente conectado y que el tomacorriente tenga suministro eléctrico. Mientras se verifica la alimentación, se debe mantener la vigilancia continua de la ventilación del paciente y comprobar que el ventilador continúe funcionando correctamente.  
+
+Si la máquina está funcionando con batería, significa que ha perdido la alimentación eléctrica externa y está utilizando su batería interna como respaldo. Por tanto, se debe restablecer la conexión a la red eléctrica lo antes posible, sin desconectar al paciente ni interrumpir la ventilación, si la alimentación eléctrica está correctamente conectada y el mensaje persiste, se debe solicitar la revisión del sistema eléctrico por parte del personal de ingeniería biomédica. [11]  
+
 ### 3. ¿Con qué frecuencia debería reemplazarse el recipiente absorbente de CO2?
+El recipiente absorbente de CO₂ debe reemplazarse cuando el material absorbente (cal sodada) haya perdido su capacidad para eliminar adecuadamente el dióxido de carbono, no existe un intervalo de tiempo único que garantice su reemplazo, ya que su duración depende de factores como:  
+- La cantidad de pacientes atendidos.   
+- El flujo de gases frescos utilizado.  
+- La duración de los procedimientos anestésicos.  
+- La cantidad de CO₂ producido por el paciente.  
+- El grado de agotamiento del material absorbente.
+   
+Se debe vigilar el cambio de color del indicador de la cal sodada, cuando el producto lo incorpora, y especialmente la concentración de CO₂ inspirado mediante la monitorización capnográfica. Si se detecta reinhalación de CO₂ o agotamiento del absorbente, debe reemplazarse.  
 ### 4. ¿Cuál es el procedimiento para verificar si hay fuga en el cilindro de alta presión?
-### 5. ¿Influye el contar o no con el sensor de O2 al hacer la prueba sobre el sistema de control de flujo? ¿De qué forma?
+De acuerdo con el manual de servicio de la Mindray WATO EX-20, la prueba de fugas del cilindro de alta presión se realiza de la siguiente manera:
+1. Colocar el interruptor del sistema en posición de apagado.
+2. Cerrar el flujómetro de oxígeno auxiliar, si la máquina cuenta con este accesorio.
+3. Girar todos los controles de flujo completamente en sentido horario, hasta alcanzar el flujo mínimo.
+4. Abrir lentamente la válvula del cilindro que se desea verificar.
+5. Registrar la presión inicial indicada en el manómetro del cilindro.
+6. Cerrar la válvula del cilindro.
+7. Esperar un minuto y registrar nuevamente la presión indicada en el manómetro.
+8. Comparar ambas mediciones para identificar posibles pérdidas de presión.
+   
+Criterios para identificar una fuga:   
+- Para el gas impulsor (Drive Gas), se considera que existe una fuga si la presión disminuye más de 5000 kPa (725 psi).
+- 
+- Para los gases que no son impulsores, se considera que existe una fuga si la presión disminuye más de 690 kPa (100 psi).
+- 
+Si se identifica una fuga, se debe instalar una junta nueva en el cilindro y repetir la prueba. Si la fuga continúa, no se debe utilizar el sistema de suministro del cilindro y se debe solicitar la revisión técnica correspondiente. [11]
+
+### 5. ¿Influye el contar o no con el sensor de O2 al hacer la prueba sobre el sistema de control de flujo? ¿De qué forma?  
+Sí, influye directamente, porque la presencia del sensor de oxígeno modifica la forma de comprobar el funcionamiento del sistema de control de flujo y la seguridad de la mezcla de gases.
+El manual de servicio de Mindray establece dos procedimientos:  
+
+Cuando la máquina NO cuenta con sensor de O₂: 
+
+1. Se verifica que los flotadores de los flujómetros se desplacen suavemente.
+2. Se comprueba el funcionamiento del sistema de enlace entre oxígeno (O₂) y óxido nitroso (N₂O).
+3. Se verifica que, al aumentar el flujo de N₂O, el flujo de O₂ aumente proporcionalmente.
+4. También se comprueba que, al disminuir el flujo de O₂, el sistema reduzca el flujo de N₂O para mantener las proporciones de seguridad establecidas. En este caso, la comprobación se realiza principalmente mediante las lecturas de los flujómetros y las relaciones de flujo establecidas por el fabricante. [11]
+
+Cuando la máquina SÍ cuenta con sensor de O₂:  
+1. Primero se debe comprobar que el sensor esté correctamente calibrado.
+2. Se verifica el funcionamiento del sistema de enlace O₂-N₂O.
+3. Al aumentar el flujo de N₂O, el flujo de O₂ debe aumentar proporcionalmente.
+4. Al disminuir el flujo de O₂, el flujo de N₂O debe disminuir. Además, el sensor permite comprobar directamente la concentración de oxígeno de la mezcla, la cual debe mantenerse igual o superior al 25 % durante las pruebas indicadas por el fabricante. [11]
+   
+La principal diferencia es que, cuando existe un sensor de O₂, se puede verificar directamente la concentración de oxígeno de la mezcla de gases. Cuando no existe, la comprobación se realiza mediante los flujos indicados por los flujómetros y el funcionamiento del sistema de enlace. el sensor proporciona una verificación adicional, pero su ausencia no elimina la necesidad de realizar las pruebas de seguridad del sistema.  
+
 ### 6. ¿Para qué se requiere el sistema de presión negativa?
+El sistema de presión negativa de la máquina de anestesia WATO EX-20 se utiliza para realizar la aspiración de secreciones y fluidos corporales del paciente, especialmente los presentes en la región faríngea, su funcionamiento se basa en el principio de Venturi: utiliza un flujo de aire u oxígeno como gas impulsor para generar presión negativa (vacío), permitiendo succionar secreciones, líquidos y vómito a través de una sonda de aspiración. Los principales componentes de este sistema son:  
 
-
+- Generador de vacío Venturi: produce la presión negativa necesaria para la aspiración.  
+- Regulador de presión negativa: permite ajustar el nivel de succión.  
+- Manómetro: indica el nivel de presión negativa.  
+- Frasco recolector: almacena temporalmente los líquidos aspirados.  
+- Válvula de protección contra sobrellenado: evita que los líquidos lleguen al generador de vacío y ocasionen daños.  
+- Filtro: ayuda a evitar la contaminación bacteriana del sistema. [11]  
 
 
 # 4. BIBLIOGRAFÍA
