@@ -256,9 +256,29 @@ Por lo tanto, la pausa inspiratoria se configura en el modo de ventilación cont
 ## Parte B
 ### 1. Identifique y ubique las siguientes partes de la máquina de anestesia WATOEX-20, explicando su función.
 a. Vaporizador
+<img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
+
+<p align="center">
+<b>Figura 1.</b> Vaporizador.
+</p>
 b. Válvula APL
+<img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
+
+<p align="center">
+<b>Figura 2.</b> Válvula APL
+</p>
 c. Recipiente absorbente de CO2
+<img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
+
+<p align="center">
+<b>Figura 3.</b> Recipiente absorbente de CO2.
+</p>
 d. Fuelle
+<img width="1056" height="340" alt="image" src="https://github.com/user-attachments/assets/36b1874f-a889-4b94-b018-2dbc220f2285" />  
+
+<p align="center">
+<b>Figura 4.</b> Fuelle.
+</p>
 ### 2. Si el ventilador muestra el mensaje “batería en uso” y el paciente se encuentra conectado a la máquina ¿Qué acción debería ejecutarse?
 Se debe verificar inmediatamente la conexión eléctrica de la máquina a la red de corriente alterna (AC), comprobando que el cable de alimentación esté correctamente conectado y que el tomacorriente tenga suministro eléctrico. Mientras se verifica la alimentación, se debe mantener la vigilancia continua de la ventilación del paciente y comprobar que el ventilador continúe funcionando correctamente.  
 
