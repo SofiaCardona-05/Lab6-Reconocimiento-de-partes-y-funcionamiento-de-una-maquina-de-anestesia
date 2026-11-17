@@ -139,15 +139,15 @@ La correcta interpretación de estas variables permite identificar alteraciones 
 
 **1. Anestesia general:**
 
-Produce pérdida reversible de la consciencia y ausencia de respuesta a estímulos dolorosos. Se utiliza en procedimientos quirúrgicos mayores y puede administrarse por vía intravenosa o inhalatoria. Durante su aplicación puede requerirse ventilación mecánica y monitorización continua de las funciones cardiovasculares y respiratorias.
+Produce pérdida reversible de la consciencia y ausencia de respuesta a estímulos dolorosos.
 
 **2. Anestesia regional:**
 
-Bloquea la transmisión nerviosa en una región determinada del cuerpo. El paciente puede permanecer consciente, ya que la pérdida de sensibilidad se limita al área intervenida. Sus principales técnicas son la anestesia epidural, espinal y los bloqueos nerviosos periféricos.
+Bloquea la transmisión nerviosa en una región determinada del cuerpo. El paciente puede permanecer consciente.
 
 **3. Anestesia local:**
 
-Produce pérdida temporal de sensibilidad en una zona pequeña y específica. Actúa principalmente mediante el bloqueo de los canales de sodio de las neuronas, impidiendo la propagación de impulsos nerviosos relacionados con el dolor. Se utiliza en procedimientos odontológicos, suturas y pequeñas intervenciones quirúrgicas.
+Produce pérdida temporal de sensibilidad en una zona pequeña y específica. Actúa principalmente mediante el bloqueo de los canales de sodio de las neuronas, impidiendo la propagación de impulsos nerviosos relacionados con el dolor.
 
 **4. Sedación monitorizada:**
 
@@ -157,7 +157,7 @@ En conclusión, la selección del tipo de anestesia depende de las característi
 
 ## 3.2. Pregunta B: ¿Con cuáles gases trabaja una máquina de anestesia y qué función cumple cada uno? ¿Cuáles de ellos se incorporan a la máquina mediante sistema de alta presión?
 
-La máquina de anestesia utiliza principalmente oxígeno, óxido nitroso y aire medicinal. Adicionalmente, puede administrar agentes anestésicos inhalatorios mediante vaporizadores.
+La máquina de anestesia utiliza principalmente oxígeno, óxido nitroso y aire medicinal. Tambien puede administrar agentes anestésicos inhalatorios mediante vaporizadores.
 
 | Gas o agente | Función |
 |---|---|
@@ -170,25 +170,12 @@ La máquina de anestesia utiliza principalmente oxígeno, óxido nitroso y aire 
 
 **Sistema de alta presión:**
 
-Los gases que ingresan mediante los cilindros de reserva pasan inicialmente por el sistema de alta presión. En las configuraciones correspondientes, estos pueden ser:
-
-- Oxígeno.
-- Óxido nitroso.
-- Aire medicinal, cuando el equipo dispone de conexión de cilindro para este gas.
-
-En este sistema, los gases se encuentran almacenados a presiones elevadas y posteriormente pasan por reguladores que reducen su presión a niveles adecuados para el funcionamiento del equipo.
-
-Es importante diferenciar el suministro mediante cilindros del suministro mediante la red central hospitalaria. La red central ingresa al equipo mediante conexiones de suministro de presión intermedia, mientras que los cilindros constituyen una fuente de reserva.
-
-Los agentes anestésicos volátiles no ingresan como gases comprimidos por el sistema de alta presión. Se almacenan como líquidos y se incorporan a la mezcla respiratoria mediante los vaporizadores correspondientes.
+Los gases que ingresan mediante los cilindros de reserva pasan inicialmente por el sistema de alta presión son Oxigeno, Oxido nitroso, Aire medicinal (cuando el equipo dispone de conxion de cilindro para este gas).
+En este sistema los gases estan almacenados a presiones elevadas y depsues pasan por reguladores que reducen su presión a niveles adecuados para el funcionamiento del equipo.
 
 ## 3.3. Pregunta C: ¿Qué es el sistema de respiración en la máquina de anestesia y cuál es su función? ¿Qué partes de este sistema podrían esterilizarse por medio de autoclave?
 
-El sistema de respiración es el conjunto de elementos que permite transportar la mezcla de gases anestésicos desde la máquina hasta el paciente y conducir los gases espirados nuevamente hacia el circuito.
-
-Su función principal consiste en garantizar el suministro de gases durante la inspiración, permitir la eliminación del dióxido de carbono y facilitar el control de la ventilación del paciente.
-
-En la máquina de anestesia se utiliza un circuito circular que permite la reutilización parcial de los gases espirados después de eliminar el CO₂ mediante el recipiente absorbente.
+El sistema de respiración es el conjunto de elementos que los cuales permite transportar la mezcla de gases anestésicos desde la máquina hasta el paciente y esots gases conducirlos espirados nuevamente hacia el circuito. Su función principal es garantizar el suministro de gases durante la inspiración, permitir la eliminación del dióxido de carbono y facilitar el control de la ventilación del paciente.
 
 **Componentes principales:**
 
@@ -202,26 +189,14 @@ En la máquina de anestesia se utiliza un circuito circular que permite la reuti
 
 **Esterilización mediante autoclave:**
 
-El autoclave utiliza vapor de agua saturado a presión y temperatura controladas para destruir microorganismos, incluidas las esporas bacterianas.
-
-En los sistemas de anestesia, algunos componentes desmontables y reutilizables del circuito respiratorio pueden ser compatibles con esterilización mediante autoclave, dependiendo de sus materiales y de las instrucciones del fabricante.
-
-Entre los elementos que podrían ser esterilizables, siempre que el fabricante lo autorice, se encuentran:
+El autoclave utiliza vapor de agua saturado a presión y temperatura controladas para destruir microorganismos, incluidas las esporas bacterianas. siempre que el fabricante lo autorice s epuede esterilizar por autoclave:
 
 - Determinados tubos respiratorios reutilizables.
 - Conectores y piezas desmontables del circuito.
 - Conectores en Y reutilizables.
 - Algunos componentes de la bolsa manual.
 
-**Importante:** no todos los elementos del sistema de respiración pueden someterse a autoclave. Los sensores electrónicos, sensores de flujo, componentes internos, válvulas y piezas fabricadas con materiales sensibles al calor pueden deteriorarse.
-
-Por tanto, para la máquina WATO EX-20 se debe consultar el manual de usuario y las instrucciones de reprocesamiento de cada accesorio antes de aplicar cualquier método de esterilización. No debe asumirse que un componente es autoclavable únicamente porque pueda desmontarse.
-
 ## 3.4. Pregunta D: ¿Cuántos y cuáles son los submenús del ventilador? ¿En qué consiste cada uno? ¿En cuál de ellos se puede activar la pausa inspiratoria?
-
-En la máquina de anestesia Mindray WATO EX-20, la configuración del ventilador permite seleccionar diferentes modos de ventilación y establecer los parámetros respiratorios correspondientes.
-
-De acuerdo con las características del fabricante, se identifican los siguientes modos principales:
 
 **1. Ventilación manual:**
 
@@ -229,27 +204,22 @@ Permite proporcionar ventilación al paciente mediante la bolsa reservorio. El o
 
 **2. Ventilación controlada por volumen (VCV):**
 
-El ventilador administra un volumen corriente previamente establecido en cada ciclo respiratorio. La presión alcanzada depende de las características mecánicas del sistema respiratorio, especialmente de la distensibilidad pulmonar y la resistencia de las vías aéreas.
+El ventilador administra un volumen corriente establecido en cada ciclo respiratorio. La presión alcanzada depende de las características mecánicas del sistema respiratorio, especialmente de la distensibilidad pulmonar y la resistencia de las vías aéreas.
 
 **3. Ventilación controlada por presión (PCV):**
 
-El ventilador administra gas hasta alcanzar una presión inspiratoria determinada. Durante la inspiración mantiene la presión establecida y el volumen suministrado depende de las características del sistema respiratorio.
+El ventilador administra gas hasta alcanzar una presión inspiratoria determinada.
 
 **4. VISO:**
 
-Es un modo de ventilación espontánea identificado por Mindray para esta serie. Su funcionamiento y parámetros específicos deben consultarse en el manual de operación correspondiente a la versión del equipo.
+Es un modo de ventilación espontánea. Su funcionamiento y parámetros específicos deben consultarse en el manual de operación
 
 **Pausa inspiratoria:**
 
-La pausa inspiratoria es un intervalo que se introduce al final de la inspiración durante el cual se interrumpe temporalmente el flujo de gas antes de iniciar la espiración.
+La pausa inspiratoria es un intervalo que se introduce al final de la inspiración el cual se interrumpe temporalmente el flujo de gas antes de iniciar la espiración. La presión de la vía aérea en este tiempo tiende a equilibrarse con la presión alveolar, lo que permite evaluar la presión de meseta cuando se cumplen las condiciones necesarias.
 
-Durante este periodo, la presión de la vía aérea tiende a equilibrarse con la presión alveolar, lo que permite evaluar la presión de meseta cuando se cumplen las condiciones necesarias.
 
-En el modo VCV de la WATO EX-20, el parámetro relacionado con esta función aparece como **TIP:TI (tiempo de pausa inspiratoria respecto al tiempo inspiratorio)**.
 
-Por lo tanto, la pausa inspiratoria se configura en el modo de ventilación controlada por volumen (VCV), mediante el ajuste del parámetro TIP:TI.
-
----
 
 
 
@@ -384,7 +354,3 @@ https://www.ncbi.nlm.nih.gov/books/NBK572060/
 [13] OpenAnesthesia. (s. f.). Carbon Dioxide Absorbers. International Anesthesia Research Society. https://www.openanesthesia.org/keywords/carbon-dioxide-absorbers/ 
 
 [14] Anesthesia Patient Safety Foundation (APSF). (2005). Carbon Dioxide Absorbent Desiccation Safety Conference Convened by APSF. https://www.apsf.org/article/carbon-dioxide-absorbent-desiccation-safety-conference-convened-by-apsf/https://www.osha.gov/waste-anesthetic-gases/workplace-exposures-guidelines
-
----
-
-**Nota académica:** La información correspondiente a los modos de ventilación y a las características de la WATO EX-20 debe contrastarse con el manual de operación de la versión instalada en el laboratorio. El manual de servicio y la información comercial del fabricante no sustituyen las instrucciones específicas de operación y reprocesamiento.
