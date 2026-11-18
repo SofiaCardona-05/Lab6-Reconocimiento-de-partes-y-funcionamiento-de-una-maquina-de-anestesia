@@ -226,6 +226,7 @@ La pausa inspiratoria es un intervalo que se introduce al final de la inspiraci�
 ## Parte B
 ### 1. Identifique y ubique las siguientes partes de la máquina de anestesia WATOEX-20, explicando su función.
 a. Vaporizador
+  
 <img width="729" height="793" alt="image" src="https://github.com/user-attachments/assets/2c7de182-c7ca-469b-9e92-886993d6745b" />
 
 
@@ -242,6 +243,8 @@ a. Vaporizador
 Se encuentra en la parte superior de la máquina, sobre el sistema de administración de gases frescos, en el soporte destinado a los vaporizadores.Transforma el anestésico líquido volátil en vapor y lo incorpora, en una concentración controlada, a la mezcla de gases frescos que recibe el paciente. Permite administrar agentes anestésicos inhalatorios, como sevoflurano o isoflurano, según el vaporizador instalado. [11]  
 
 b. Válvula APL
+
+
 <img width="913" height="1430" alt="image" src="https://github.com/user-attachments/assets/23ac44d9-b5ed-497a-b935-99ec4827acfd" />
 
 
@@ -251,6 +254,8 @@ b. Válvula APL
 Se encuentra en el sistema respiratorio, en la zona frontal del circuito de ventilación manual, cerca de la bolsa reservorio. Regula y limita la presión dentro del circuito durante la ventilación manual. Permite liberar el exceso de gases hacia el sistema de evacuación de gases anestésicos (AGSS), evitando que se produzcan presiones excesivas en el circuito respiratorio del paciente. [11]  
 
 c. Recipiente absorbente de CO2
+
+
 <img width="1206" height="1502" alt="image" src="https://github.com/user-attachments/assets/a8d36c30-fb57-438e-ac53-8d6bf9337d76" />
  
 
@@ -260,6 +265,8 @@ c. Recipiente absorbente de CO2
 Se encuentra en la parte inferior del sistema respiratorio, conectado al circuito circular de ventilación.Contiene un material absorbente, generalmente cal sodada, que elimina el dióxido de carbono (CO₂) del aire espirado por el paciente. Esto permite reutilizar los gases restantes del circuito, evitando la reinhalación de concentraciones perjudiciales de CO₂. [11]  
 
 d. Fuelle
+
+
 <img width="753" height="809" alt="image" src="https://github.com/user-attachments/assets/a53644d7-96ec-4ff4-94a7-4cac393e5178" />
 
 
