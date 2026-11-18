@@ -253,7 +253,7 @@ b. Válvula APL
 </p>
 Se encuentra en el sistema respiratorio, en la zona frontal del circuito de ventilación manual, cerca de la bolsa reservorio. Regula y limita la presión dentro del circuito durante la ventilación manual. Permite liberar el exceso de gases hacia el sistema de evacuación de gases anestésicos (AGSS), evitando que se produzcan presiones excesivas en el circuito respiratorio del paciente. [11]  
 
-c. Recipiente absorbente de CO2
+c. Recipiente absorbente de CO2  
 
 
 <img width="1206" height="1502" alt="image" src="https://github.com/user-attachments/assets/a8d36c30-fb57-438e-ac53-8d6bf9337d76" />
